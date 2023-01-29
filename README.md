@@ -1,6 +1,6 @@
 # Running Windows on the Redmi Note 9 Pro
 
-<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/miatoll.png" alt="Windows 11 Running On A Redmi Note 9 Pro" width="500">
+<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/miatoll.png" alt="Windows 11 Running On A Redmi Note 9 Pro" height="500">
 
 ## ⚠️ **Warning**
 
