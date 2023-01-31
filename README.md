@@ -1,10 +1,10 @@
 # Running Windows on the Redmi Note 9 Pro
 
-<img align="center" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/miatoll.png" alt="Windows 11 Running On A Poco X3 Pro">
+<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/miatoll.png" alt="Windows 11 Running On A Redmi Note 9 Pro" height="300">
 
 ## ⚠️ **Warning**
 
-We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline ~workers~ cowboys, dead microSD cards, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi/poco shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
+We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline ~workers~ cowboys, dead microSD cards, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
 
 This project is in an early stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
 
