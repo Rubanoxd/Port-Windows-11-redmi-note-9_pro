@@ -98,6 +98,11 @@ mkpart userdata ext4 65.4GB 123GB
   </summary>
 </details>
 
+#### Rename partition for android can detect it
+```sh
+name 20 userdata
+```
+
 #### Make ESP partiton bootable so the EFI image can detect it
 ```sh
 set 18 esp on
