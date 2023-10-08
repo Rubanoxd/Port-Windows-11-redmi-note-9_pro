@@ -28,7 +28,7 @@ adb shell msc.sh
 
 #### Start the Windows disk manager
 
-> Once the X3 Pro is detected as a disk
+> Once the SM6250 is detected as a disk
 
 ```cmd
 diskpart
@@ -38,7 +38,7 @@ diskpart
 ### Assign `X` to Windows volume
 
 #### Select the Windows volume of the phone
-> Use `list volume` to find it, it's the one named "WINVAYU"
+> Use `list volume` to find it, it's the one named "WINMIATOLL"
 
 ```diskpart
 select volume <number>
@@ -52,7 +52,7 @@ assign letter=x
 ### Assign `Y` to esp volume
 
 #### Select the ESP volume of the phone
-> Use `list volume` to find it, it's the one named "ESPVAYU"
+> Use `list volume` to find it, it's the one named "ESPMIATOLL"
 
 ```diskpart
 select volume <number>
@@ -67,8 +67,23 @@ assign letter=y
 #### Exit diskpart
 ```diskpart
 exit
+
 ```
 
+  
+  
+
+### Install
+
+> Replace `path\to\install.wim` with the actual path to install.wim,
+
+> `install.wim` is located in sources folder inside your ISO
+> (it might also be named `install.esd`)
+> You can get it either by mounting or extracting the ISO
+
+```cmd
+dism /apply-image /ImageFile:path\to\install.wim /index:1 /ApplyDir:X:\
+```
 
 
 ### Install Drivers
@@ -79,7 +94,7 @@ exit
 driverupdater.exe -d <miatolldriversfolder>\definitions\Desktop\ARM64\Internal\miatoll.txt -r <miatolldriversfolder> -p X:
 ```
 
-  
+
 
 ### Create Windows bootloader files for the EFI
 

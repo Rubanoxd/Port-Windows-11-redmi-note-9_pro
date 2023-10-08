@@ -9,9 +9,7 @@
 
 ### Prerequisites
 
-- [TWRP](https://sourceforge.net/projects/mauronofrio-twrp/files/Curtana-Joyeuse-Gram-Excalibur/twrp-3.4.0-14-curtana-unified-mauronofrio.img/download)
-
-- [OFOX](https://orangefox.download/es-ES/device/miatoll)
+- [MODDED OFOX](https://t.me/c/1868522977/9268)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
@@ -27,13 +25,13 @@
 
 ##### ⚠️ DO NOT MAKE ANY MISTAKE!!! YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
 
-##### Boot TWRP recovery through the PC with the command
+##### Boot modded OFOX recovery through the PC with the command
 ```cmd
-fastboot boot <twrp.img>
+fastboot boot <Ofox_A12-FBEv1-miatoll-mod.img>
 ```
 
-#### Unmount all partitions
-Go to TWRP settings and unmount all partitions
+#### Turn off MTP
+In Mount and turn off MTP.
 
 #### Start ADB shell
 ```cmd
@@ -47,7 +45,7 @@ parted /dev/block/sda
 
 
 #### Delete the `userdata` partition
-> You can make sure that 32 is the userdata partition number by running
+> You can make sure that 18 is the userdata partition number by running
 >  `print all`
 ```sh
 rm 18
@@ -118,12 +116,12 @@ adb shell
 #### Format partitions
 -  Format the ESP partiton as FAT32
 ```sh
-mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPVAYU
+mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPMIATOLL
 ```
 
 -  Format the Windows partition as NTFS
 ```sh
-mkfs.ntfs -f /dev/block/by-name/win -L WINVAYU
+mkfs.ntfs -f /dev/block/by-name/win -L WINMIATOLL
 ```
 
 - Format data
