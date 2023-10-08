@@ -9,4 +9,5 @@
 
 - [English](English/restore-stock-en.md)
 - [Español](Español/restaurar-de-fabrica-es.md)
+- [Русский](Russian/restore-stock-ru.md)
 

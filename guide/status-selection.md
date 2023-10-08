@@ -9,3 +9,4 @@
 
 - [English](English/status.md)
 - [Español](Español/soporte.md)
+- [Русский](Russian/status.md)

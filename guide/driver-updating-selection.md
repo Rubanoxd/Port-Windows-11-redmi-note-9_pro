@@ -10,4 +10,4 @@
 
 - [English](English/update-en.md)
 - [Español](Español/Actualizar-es.md)
-
+- [Русский](Russian/update-ru.md)

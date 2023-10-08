@@ -9,4 +9,4 @@
 
 - [English](English/1-partition-en.md)
 - [Español](Español/1-particiones-es.md)
-
+- [Русский](Russian/1-partition-ru.md)
