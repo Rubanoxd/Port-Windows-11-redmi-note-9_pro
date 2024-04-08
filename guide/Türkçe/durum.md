@@ -5,7 +5,7 @@
 
 ## Proje Durumu
 
-Alfa. Windows'ta zaten kullanılabilir, ancak birçok şey henüz çalışmıyor, birçoğu çok önemlidir.
+Alfa. Windows kullanılabiliyor, ancak birçok şey henüz çalışmıyor, birçoğu çok önemlidir.
 
 #### Özellikler
 
